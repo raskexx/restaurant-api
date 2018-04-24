@@ -1,0 +1,26 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+	
+    <context:annotation-config />
+ 
+ 	<context:component-scan base-package="com.raskex.restaurant.controller" />
+ 	<context:component-scan base-package="com.raskex.restaurant.dao" />
+ 
+<!--     <bean id="employee" class="com.howtodoinjava.autowire.constructor.EmployeeBean" autowire="constructor"> -->
+<!--         <property name="fullName" value="Lokesh Gupta"/> -->
+<!--     </bean> -->
+<!--     First bean of type DepartmentBean -->
+<!--     <bean id="humanResource" class="com.howtodoinjava.autowire.constructor.DepartmentBean" > -->
+<!--         <property name="name" value="Human Resource" /> -->
+<!--     </bean> -->
+ 
+<!--     Second bean of type DepartmentBean -->
+<!--      <bean id="finance" class="com.howtodoinjava.autowire.constructor.DepartmentBean" > -->
+<!--         <property name="name" value="Finance" /> -->
+<!--     </bean> -->
+</beans>
